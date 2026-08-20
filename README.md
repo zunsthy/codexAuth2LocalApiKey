@@ -6,7 +6,7 @@
 
 ## 使用
 
-需要 Node.js 24+ 和 Codex CLI。先在 `~/.codex/config.toml` 写入：
+(此步骤可选) 需要 Node.js 24+ 和 Codex CLI。先在 `~/.codex/config.toml` 写入：
 
 ```toml
 cli_auth_credentials_store = "file"
