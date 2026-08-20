@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Local credentials and environment variables
+auth.json
+*.token.json
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Logs and runtime files
+logs/
+*.log
+*.pid
+*.pid.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test output and generated artifacts
+coverage/
+.nyc_output/
+dist/
+build/
+
+# Tool caches and temporary files
+.cache/
+.eslintcache
+*.tsbuildinfo
+tmp/
+temp/
+*.tmp
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
