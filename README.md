@@ -1,18 +1,22 @@
 > **AI 生成项目：** 本项目及其源码由 AI 生成，使用前请自行审查实现与安全风险。
 
+[简体中文](README.md) | [English](README.en-US.md)
+
 # codex-auth-to-local-api-key
 
 把 Codex CLI 已登录的 ChatGPT/Codex 订阅转换为本地 OpenAI Responses 兼容接口。它不是 OpenAI Platform API Key，也不要将服务暴露到公网。
 
 ## 使用
 
-(此步骤可选) 需要 Node.js 24+ 和 Codex CLI。先在 `~/.codex/config.toml` 写入：
+需要 Node.js 和 Codex CLI。
+
+(此步骤可选) 在 `~/.codex/config.toml` 写入：
 
 ```toml
 cli_auth_credentials_store = "file"
 ```
 
-然后安装依赖并登录：
+安装依赖并登录：
 
 ```bash
 npm install
@@ -30,7 +34,7 @@ node index.js \
 
 也可以运行 `npm start --` 后追加相同参数。默认监听 `http://127.0.0.1:10680/v1`。
 
-调用示例：
+### 调用示例
 
 ```bash
 curl http://127.0.0.1:10680/v1/responses \

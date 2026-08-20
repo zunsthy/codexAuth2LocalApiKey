@@ -1,5 +1,6 @@
 {
   "name": "codeAuth2LocalApi",
+  "private": true,
   "version": "1.0.0",
   "description": "Minimal localhost proxy for using a Codex subscription through the Responses protocol",
   "main": "index.js",
@@ -10,7 +11,10 @@
     "node": ">=24"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "z",
+    "url": "https://github.com/zunsthy"
+  },
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
